@@ -1,0 +1,35 @@
+#container{
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+}
+    
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-image:url(gg.avif);
+   margin-top: 29px;
+}
+
+.bar{
+    width: 10px;
+    background-color: rgb(224, 104, 39);
+    margin: 1px;
+}
+button {
+    color: rgb(6, 6, 6);
+    background-color: rgb(59, 158, 125);
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgb(35, 123, 195);
+    transition-delay: 0s;
+  }
+  footer{
+    margin-top: 90px;
+    font-weight: bold;
+  }
